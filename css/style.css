@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-	color: #F9F9F9;
+	color: #FFFFFF;
 }
 
 .container {
@@ -50,21 +50,40 @@ p {
 	font-size: 15px;
 }
 
-
 /*HERO*/
+
 .nav a {
 	color: #FFFFFF;
 	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav a:hover {
+	color: #FFCC27;
 }
 
 h1, h2 {
 	color: #FFFFFF;
 	float: right;
 	font-weight: lighter;
+	text-align: right;
 }
 
 #logo {
 	float: left;
+}
+
+@media (max-width: 550px) {
+	#logo {
+		float: none;
+		text-align: center;
+	}
+
+	.logo {
+		float: none;
+		text-align: center;
+	}
 }
 
 .hero {
@@ -95,13 +114,13 @@ h1, h2 {
     text-transform: none;
 } /* sets button styling */
 
-.button a:hover{
-	color: #333333;
+.button:hover {
+	background: #FFCC27;
+	border: 1px solid #FFCC27;
 }
 
-.button:hover {
-	background-color: #FFCC27;
-	border: 1px solid #FFCC27;
+.button a:hover {
+	color: #333333;
 }
 
 .submit {
@@ -130,6 +149,7 @@ h1, h2 {
 }
 
 /*WE GO*/
+
 #map {
 	padding-bottom: 20px;
 }
@@ -138,6 +158,13 @@ h1, h2 {
 
 .yellow p {
 	color: #333333;
+}
+
+@media (max-width: 550px) {
+	.testimonials_image {
+		float: none;
+		text-align: center;
+	}
 }
 
 /*OUR SHIP*/
