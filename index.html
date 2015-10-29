@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,30 +32,29 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--NAV LOGO AND HEADER TEXT-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns" style="margin-top: 25%">
-            <ul class="nav">
-                <li>What We Do</li>
-                <li>Where We Go</li>
-                <li>Who We Are</li>
-                <li>Contact Us</li>
-            </ul><!--nav-->
-            <img src="images/logo.png"/>
-            <h1>Stellar Shipping and Transport</h1>
-            <h2>What can we move for you?</h2>
-        </div>
-    </div>
-</div>
 
-<!--HERO-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns hero">
-            <div class="cycle-slideshow" 
-                data-cycle-caption="#alt_caption" 
-                data-caption-cycle-template="{{alt}}">
+<div class="hero">
+    <!--NAV LOGO AND HEADER TEXT-->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <ul class="nav">
+                    <li><a href="#we_do">What We Do  |  </a></li>
+                    <li><a href="#we_go">Where We Go  |  </a></li>
+                    <li><a href="#we_are">Who We Are  |  </a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul><!--nav-->
+                <img id="logo" src="images/logo.png"/>
+                <h1><em>Stellar Shipping and Transport</em></h1>
+                <h2><em>What can we move for you?</em></h2>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+
+    <!--HERO images-->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns cycle-slideshow" data-cycle-caption="#alt-caption" data-cycle-caption-template="{{alt}}">
                 <img src="images/marketing/dinner_table.jpg" alt="We have refrigerated storage solutions for food and drink.">
                 <img src="images/marketing/medicines.jpg" alt="We have refrigerated storage solutions for medicines.">
                 <img src="images/marketing/passengers.jpg" alt="We are approved for passengers.">
@@ -64,153 +63,168 @@
             <div id="alt-caption" class="center"></div>
         </div>
     </div>
-</div>
 
-
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
+    <!--Hero button-->
+    <div class="container">
+        <div class="row">
             <div class="btn">
-                <a href="#">Request a Quote</a>
-            </div><!--/button-->
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+                <div class="button">
+                    <a href="#">Request a Quote</a>
+                </div><!--/button-->
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/hero color-->
 
 <!--WHAT WE DO-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns we_do">
-            <h3 class="title">What We Do</h3>
-            <p class="text">We are an independent shipping vessel that is committed to providing flexible, reliable, and secure shipping solutions for our clients.</p>
-            <p class="text">We specialize in refrigerated transport for produce, beverages, and medicines. We are certified in the handling and transfer of information, and are approved to carry passengers.</p>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+<div class="red">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns we_do">
+                <a name="we_do"><h3>What We Do</h3></a>
+                <p>We are an independent shipping vessel that is committed to providing flexible, reliable, and secure shipping solutions for our clients.</p>
+                <p>We specialize in refrigerated transport for produce, beverages, and medicines. We are certified in the handling and transfer of information, and are approved to carry passengers.</p>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/red-->
 
 <!--WHERE WE GO-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns we_go">
-            <h3 class="title">Where We Go</h3>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+<div class="dark">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <a name="we_go"><h3 class>Where We Go</h3></a>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
 
-<div class="container">
-    <div class="row">
-        <div class="six columns we_go">
-            <p class="text">Our primary service area is between Earth and Saturn and the accompanying moons and colonies. Longer hauls or working outside of our service area may be subject to greater fees, but we are open to negotiation.</p>
-        </div><!--/six columns-->
-        <div class="six columns we_go">
-            <img src="images/map.png" alt="Service Area">
-        </div><!--/six columns-->
-    </div><!--/row-->
-</div><!--/container-->
-
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <div class="btn">
-                <a href="#">Request a Quote</a>
-            </div><!--/button-->
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+    <div class="container">
+        <div class="row">
+            <div class="six columns">
+                <p>Our primary service area is between Earth and Saturn and the accompanying moons and colonies. Longer hauls or working outside of our service area may be subject to greater fees, but we are open to negotiation.<br><br></p>
+                <div class="btn">
+                    <div class="button">
+                        <a href="#">Request a Quote</a>
+                    </div><!--/button-->
+                </div><!--/btn-->
+            </div><!--/six columns-->
+            <div id="map" class="six columns">
+                <img src="images/map.png" alt="Service Area">
+            </div><!--/six columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--dark-->
 
 <!--TESTIMONIALS-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <h3 class="title">Testimonials</h3>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+<div class="yellow">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns testimonials">
+                <h3 class="title">Testimonials</h3>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
 
-<div class="container">
-    <div class="row">
-        <div class="six columns testimonials">
-            <img src="images/testimonials/derus.png" alt="Derus">
-            <p class="text">&quot;The crew of the <em>Marigold</em> moved my wines and aquaponic apples from Io to Mars quickly and gently. I would not hestitate to use them for future work.&quot;</p>
-            <p class="text">Derus Brook, Io Colony</p>
-        </div><!--/six columns-->
-        <div class="six columns testimonials">
-            <img src="images/testimonials/felan.png" alt="Felan">
-            <p class="text">&quot;The <em>Marigold</em> transported my information from Europa to New Hope real private-like. They protected it when it needed protecting and didn't hassle me when my buyer changed suddenly.&quot;</p>
-            <p class="text">Felan Smith, Europa Station</p>
-        </div><!--/six columns-->
-    </div><!--/row-->
-</div><!--/container-->
+    <div class="container">
+        <div class="row">
+            <div class="six columns testimonials">
+                <img src="images/testimonials/derus.png" alt="Derus">
+                <p>&quot;The crew of the <em>Marigold</em> moved my wines and aquaponic apples from Io to Mars quickly and gently. I would not hestitate to use them for future work.&quot;</p>
+                <p>Derus Brook, Io Colony</p>
+            </div><!--/six columns-->
+            <div class="six columns testimonials">
+                <img src="images/testimonials/felan.png" alt="Felan">
+                <p>&quot;The <em>Marigold</em> transported my information from Europa to New Hope real private-like. They protected it when it needed protecting and didn't hassle me when my buyer changed suddenly.&quot;</p>
+                <p>Felan Smith, Europa Station</p>
+            </div><!--/six columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/yellow-->
 
 <!--OUR SHIP-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns our_ship">
-            <h3 class="title">Our Ship</h3>
-            <img src="images/spaceship.png">
-            <p class="text"><em>Marigold</em>, Stratus V Hopper (Freighter)</p>
-            <p class="subtext">Maximum Velocity: 240 m/s<br>Capacity: 315 m3</p>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+<div class="dark">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns our_ship">
+                <a name="we_are"><h3>Our Ship</h3></a>
+                <img src="images/spaceship.png">
+                <p><em>Marigold</em>, Stratus V Hopper (Freighter)</p>
+                <p class="subtext">Maximum Velocity: 240 m/s<br>Capacity: 315 m3</p>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/dark-->
 
 <!--WHO WE ARE-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns who_are">
-            <h3 class="title">Who We Are</h3>
+<div class="we_are">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h3>Who We Are</h3>
                 <ul class="crew">
-                    <li><img src="images/crew/linda.png" alt="Linda"><p class="text">Linda, <br> First Officer</p></li>
-                    <li><img src="images/crew/hope.png" alt="Hope"><p class="text">Hope, <br> Pilot & Navigation</p></li>
-                    <li><img src="images/crew/melody.png" alt="Melody"><p class="text">Melody, <br>Captain & CEO</p></li>
-                    <li><img src="images/crew/eliane.png" alt="Eliane"><p class="text">Eliane, <br>Assurance Officer</p></li>
-                    <li><img src="images/crew/lila.png" alt="Lila"><p class="text">Lila, <br>Mechanic</p></li>
+                    <li><img src="images/crew/linda.png" alt="Linda"><p class="subtext">Linda, <br> First Officer</p></li>
+                    <li><img src="images/crew/hope.png" alt="Hope"><p class="subtext">Hope, <br> Pilot & Navigation</p></li>
+                    <li><img src="images/crew/melody.png" alt="Melody"><p class="subtext">Melody, <br>Captain & CEO</p></li>
+                    <li><img src="images/crew/eliane.png" alt="Eliane"><p class="subtext">Eliane, <br>Assurance Officer</p></li>
+                    <li><img src="images/crew/lila.png" alt="Lila"><p class="subtext">Lila, <br>Mechanic</p></li>
                 </ul><!--/crew-->
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/we_are-->
 
 <!--CONTACT US-->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <h3 class="title">Contact Us</h3>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+<div class="red">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <a name="contact"><h3 class="title">Contact Us</h3></a>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <form>
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="email" placeholder="Your Net ID"><br>
-                <input type="text" name="description" placeholder="Brief Description"><br>
-                <input type="text" name="origin" placeholder="Origin">
-                <input type="text" name="destination" placeholder="Destination">
-            </form>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <form class="six columns">
+                    Name: <br>
+                    <input class="u-full-width" type="text" name="name">
+                    Net ID: <br>
+                    <input class="u-full-width" type="email" name="email">
+                </form>
+                <form class="six columns">
+                    Origin:<br>
+                    <input class="u-full-width" type="text" name="origin">
+                    Destination:<br>
+                    <input class="u-full-width" type="text" name="destination">
+                </form>
+                <form class="twelve columns">
+                    Description of Shipment: <br>
+                    <input class="u-full-width" type="text" name="description">
+                </form>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <div class="submit">
-                <a href="#">Request a Quote</a>
-            </div><!--/button-->
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
+    <div class="container">
+        <div class="row">
+            <div class="btn">
+                <div class="submit button">
+                    <a href="#">Request a Quote</a>
+                </div><!--/button-->
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
 
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-           <p class="subtext">We will return your inquiry with a personalized estimate for our service within 3-5 business days.<br>For urgent inquiries, please call us collect at <span>hopper-class-marigold@net.over</span></p>
-        </div><!--/twelve columns-->
-    </div><!--/row-->
-</div><!--/container-->
-
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <p id="disclaimer" class="subtext">We will return your inquiry with a personalized estimate for our service within 3-5 business days.<br>For urgent inquiries, please call us collect at <span>hopper-class-marigold@net.over</span></p>
+            </div><!--/twelve columns-->
+        </div><!--/row-->
+    </div><!--/container-->
+</div><!--/red-->
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <!--SCRIPTS-->

@@ -1,0 +1,192 @@
+
+/* NAV*/
+.nav {
+	float: right;
+	margin-top: .5em;
+}
+
+.nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+/*GENERAL*/
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F9F9F9;
+}
+
+.container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*FONT SIZES*/
+
+h1, h3 {
+	font-size: 48px;
+}
+
+h3 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	color: #FFFFFF;
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+.subtext {
+	font-size: 15px;
+}
+
+
+/*HERO*/
+.nav a {
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+h1, h2 {
+	color: #FFFFFF;
+	float: right;
+	font-weight: lighter;
+}
+
+#logo {
+	float: left;
+}
+
+.hero {
+	background-color: #333333;
+	background-image: url("top_pattern.png");
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#alt-caption {
+	color: #FFFFFF;
+}
+
+.cycle-slideshow img { 
+	width: 100%; height: auto 
+}
+
+
+/*BUTTONS*/
+
+.button {
+    background: #D0021B;
+    border: 1px solid #D0021B;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: none;
+} /* sets button styling */
+
+.button a:hover{
+	color: #333333;
+}
+
+.button:hover {
+	background-color: #FFCC27;
+	border: 1px solid #FFCC27;
+}
+
+.submit {
+	background: #333333;
+	border: 1px solid #333333;
+	border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn {
+	text-align: center;
+}
+
+/*Backgrounds*/
+
+.red {
+	background-color: #D0021B;
+}
+
+.dark {
+	background-color: #222222;
+}
+
+.yellow {
+	background-color:  #FFCC27;
+}
+
+/*WE GO*/
+#map {
+	padding-bottom: 20px;
+}
+
+/*TESTIMONIALS*/
+
+.yellow p {
+	color: #333333;
+}
+
+/*OUR SHIP*/
+
+.our_ship {
+	text-align: center;
+}
+
+@media (max-width: 550px) {
+	.our_ship img {
+		width: 48%;
+	}
+}
+
+/*WHO WE ARE*/
+
+.we_are {
+	background-color: #333333;
+	background-image: url("who_are_pattern.png"); 
+}
+
+.we_are h3 {
+	color: #FFFFFF;
+}
+
+.we_are .crew {
+	list-style-type: none;
+}
+
+.crew li {
+	display: inline-block;
+	padding: 30px;
+	text-align: center;
+}
+
+/*CONTACT*/
+
+form {
+	color: #FFFFFF;
+}
+
+form input {
+	color: #333333;
+}
+
+#disclaimer {
+	text-align: center;
+}
+
+span {
+	color: #FFCC27;
+}
