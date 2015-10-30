@@ -11,12 +11,13 @@
 }
 
 /*GENERAL*/
+
 a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
-a:hover {
+.title:hover {
 	color: #FFFFFF;
 }
 
@@ -98,7 +99,8 @@ h1, h2 {
 }
 
 .cycle-slideshow img { 
-	width: 100%; height: auto 
+	width: 100%; 
+	height: auto; 
 }
 
 
@@ -117,9 +119,6 @@ h1, h2 {
 .button:hover {
 	background: #FFCC27;
 	border: 1px solid #FFCC27;
-}
-
-.button a:hover {
 	color: #333333;
 }
 
@@ -217,3 +216,13 @@ form input {
 span {
 	color: #FFCC27;
 }
+
+/*QUOTES*/
+
+.testimonials p { z-index: 2; }
+.quote { z-index: -1; color: #D0021B; font-size: 220px; line-height:0px; }
+/*.quote.open { bottom: 5px; right: 10px; }
+.quote.close { bottom: -120px; right: 0px; }*/
+
+
+
