@@ -110,6 +110,7 @@ h1, h2 {
     background: #D0021B;
     border: 1px solid #D0021B;
     border-radius: 4px;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 300;
     text-decoration: none;
@@ -166,6 +167,41 @@ h1, h2 {
 	}
 }
 
+.testimonials_image {
+	text-align: center;
+}
+
+/*QUOTES*/
+
+blockquote {
+  font-size:1.5em;
+  font-style:italic;
+  background-color:rgba(0,0,0,0.1);
+  padding:1em;
+  margin:0.5em;
+  border-left:10px solid rgba(0,0,0,0.1);
+  transition:border-left 0.5s;
+  -webkit-transition:border-left 0.5s;
+  -moz-transition:border-left 0.5s;
+  -ms-transition:border-left 0.5s;
+  -o-transition:border-left 0.5s;
+}
+
+cite {
+  text-align: right;
+  display: block;
+  margin: 0 .5em;
+  font-size: 1em;
+}
+
+cite:before {
+  content:"-";
+}
+
+blockquote:hover {
+  border-left: 10px solid #D0021B;
+}
+
 /*OUR SHIP*/
 
 .our_ship {
@@ -216,13 +252,6 @@ form input {
 span {
 	color: #FFCC27;
 }
-
-/*QUOTES*/
-
-.testimonials p { z-index: 2; }
-.quote { z-index: -1; color: #D0021B; font-size: 220px; line-height:0px; }
-/*.quote.open { bottom: 5px; right: 10px; }
-.quote.close { bottom: -120px; right: 0px; }*/
 
 
 
